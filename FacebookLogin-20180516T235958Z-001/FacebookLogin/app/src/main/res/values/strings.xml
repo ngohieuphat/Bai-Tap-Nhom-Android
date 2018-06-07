@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyBike</string>
+    <string name="facebook_app_id">602984946724717</string>
+    <string name="facebook_login_protocol_scheme">fb602984946724717</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:paddingLeft="10dp"
+        android:id="@+id/txttenxe"
+        android:textSize="28sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textColor="#050505"
+        android:text="Tên địa điểm giải trí"
+        android:paddingBottom="10dp"
+        android:textStyle="bold" />
+</LinearLayout>

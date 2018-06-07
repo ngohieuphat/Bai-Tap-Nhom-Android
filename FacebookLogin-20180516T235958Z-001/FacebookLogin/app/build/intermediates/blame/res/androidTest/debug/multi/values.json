@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "C:\\Users\\LaVanDuc\\Videos\\FacebookLogin-20180516T235958Z-001\\FacebookLogin\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "C:\\Users\\LaVanDuc\\.android\\build-cache\\7f5fe237c8e81e9bdfccdac595768853a8b5cc32\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 229,
+                        "endColumn": 45,
+                        "endOffset": 270
+                    }
+                }
+            }
+        ]
+    }
+]

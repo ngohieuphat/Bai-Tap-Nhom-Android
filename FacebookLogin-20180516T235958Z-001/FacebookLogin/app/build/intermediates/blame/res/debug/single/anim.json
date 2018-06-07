@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\Users\\LaVanDuc\\Videos\\FacebookLogin-20180516T235958Z-001\\FacebookLogin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\LaVanDuc\\.android\\build-cache\\aae380e5bd66943137dacd9e34c75257e08b92da\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\LaVanDuc\\Videos\\FacebookLogin-20180516T235958Z-001\\FacebookLogin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\LaVanDuc\\.android\\build-cache\\aae380e5bd66943137dacd9e34c75257e08b92da\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\LaVanDuc\\Videos\\FacebookLogin-20180516T235958Z-001\\FacebookLogin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\LaVanDuc\\.android\\build-cache\\aae380e5bd66943137dacd9e34c75257e08b92da\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\LaVanDuc\\Videos\\FacebookLogin-20180516T235958Z-001\\FacebookLogin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\LaVanDuc\\.android\\build-cache\\aae380e5bd66943137dacd9e34c75257e08b92da\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\LaVanDuc\\Videos\\FacebookLogin-20180516T235958Z-001\\FacebookLogin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\LaVanDuc\\.android\\build-cache\\aae380e5bd66943137dacd9e34c75257e08b92da\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\LaVanDuc\\Videos\\FacebookLogin-20180516T235958Z-001\\FacebookLogin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\LaVanDuc\\.android\\build-cache\\aae380e5bd66943137dacd9e34c75257e08b92da\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\LaVanDuc\\Videos\\FacebookLogin-20180516T235958Z-001\\FacebookLogin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\LaVanDuc\\.android\\build-cache\\aae380e5bd66943137dacd9e34c75257e08b92da\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\LaVanDuc\\Videos\\FacebookLogin-20180516T235958Z-001\\FacebookLogin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\LaVanDuc\\.android\\build-cache\\aae380e5bd66943137dacd9e34c75257e08b92da\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\LaVanDuc\\Videos\\FacebookLogin-20180516T235958Z-001\\FacebookLogin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\LaVanDuc\\.android\\build-cache\\aae380e5bd66943137dacd9e34c75257e08b92da\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\LaVanDuc\\Videos\\FacebookLogin-20180516T235958Z-001\\FacebookLogin\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\LaVanDuc\\.android\\build-cache\\aae380e5bd66943137dacd9e34c75257e08b92da\\output\\res\\anim\\abc_popup_exit.xml"
+    }
+]

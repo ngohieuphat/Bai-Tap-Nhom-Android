@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context="com.example.minh.facebooklogin.activity.NhacNhoActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="ĐẾN THỜI GIAN BẢO DƯỠNG,THAY THẾ"
+        android:textColor="#f20c04"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:src="@drawable/two_bike"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:id="@+id/imgHinh"
+        android:layout_height="150dp" />
+
+    <ScrollView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tên xe"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txttenxe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:text="Thời gian bắt đầu" />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phụ tùng xe"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtphutung"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:text="Thời gian bắt đầu" />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lời khuyên cho bạn"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtloikhuyen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:text="Thời gian bắt đầu" />
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

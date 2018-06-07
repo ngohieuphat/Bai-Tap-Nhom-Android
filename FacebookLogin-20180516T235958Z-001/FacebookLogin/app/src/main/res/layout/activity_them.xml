@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context="com.example.minh.facebooklogin.activity.ThemXeActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="NHẬP THÔNG TIN XE"
+        android:textColor="#00a680"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:text="Nhập mã xe" />
+
+            <EditText
+                android:id="@+id/edtmaxe"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_edittext" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:text="Nhập tên xe" />
+
+            <EditText
+                android:id="@+id/edttenxe"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_edittext" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:text="Hình ảnh xe" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="15dp"
+                android:weightSum="10">
+
+                <ImageView
+                    android:id="@+id/imgHinh"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="8"
+                    android:src="@drawable/chuphi" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/imgchonhinh"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/chonhi"
+                        app:civ_border_color="#FF000000"
+                        app:civ_border_width="2dp" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/imgchuphinh"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/chuphi"
+                        app:civ_border_color="#FF000000"
+                        app:civ_border_width="2dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+
+                android:layout_height="50dp"
+                android:layout_marginTop="25dp"
+                android:weightSum="2">
+
+                <ru.katso.livebutton.LiveButton
+                    android:id="@+id/btnThem"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:text="Tiếp tục"
+                    android:textColor="#0e0e0e"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    app:backgroundColor="#ffcc00"
+                    app:corners="0sp"
+                    app:normalHeight="5dp"
+                    app:pressedHeight="2dp"
+                    app:shadowColor="#b7bac9" />
+
+                <ru.katso.livebutton.LiveButton
+                    android:id="@+id/btnHuy"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:text="Hủy"
+                    android:textColor="#080808"
+                    android:textSize="35dp"
+                    android:textStyle="bold"
+                    app:backgroundColor="#ffcc00"
+                    app:corners="0sp"
+                    app:normalHeight="5dp"
+                    app:pressedHeight="2dp"
+                    app:shadowColor="#b7bac9" />
+
+            </LinearLayout>
+        </TableLayout>
+    </ScrollView>
+
+
+</LinearLayout>
